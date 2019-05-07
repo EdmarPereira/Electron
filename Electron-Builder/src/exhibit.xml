@@ -1,0 +1,587 @@
+<?xml version="1.0"?>
+<vuc>
+    <exhibit category="VUE001">
+        <name lang="en">VUE001</name>
+        <longname lang="en">VUE001 MSUs 001</longname>
+        <label lang="en">MSUs</label>
+        <abbreviation lang="en">MSU</abbreviation>
+        <note lang="en">Note Override</note>
+        <level category="0">
+            <lowval>1</lowval>
+            <hival>3</hival>
+            <vu>5.25</vu>
+        </level>
+        <level category="1">
+            <lowval>4</lowval>
+            <hival>45</hival>
+            <vu>.83</vu>
+        </level>
+        <level category="2">
+            <lowval>46</lowval>
+            <hival>175</hival>
+            <vu>.35</vu>
+        </level>
+        <level category="3">
+            <lowval>176</lowval>
+            <hival>315</hival>
+            <vu>.26</vu>
+        </level>
+        <level category="4">
+            <lowval>316</lowval>
+            <hival>+</hival>
+            <vu>.2</vu>
+        </level>
+    </exhibit>
+    <exhibit category="VUE002">
+        <name lang="en">VUE002</name>
+        <longname lang="en">VUE002 Messages 002</longname>
+        <label lang="en">Messages</label>
+        <abbreviation lang="en">MSG</abbreviation>
+        <level category="0">
+            <lowval>1</lowval>
+            <hival>1</hival>
+            <vu>250</vu>
+        </level>
+        <level category="1">
+            <lowval>2</lowval>
+            <hival>10000</hival>
+            <vu>.0195</vu>
+        </level>
+        <level category="2">
+            <lowval>10001</lowval>
+            <hival>100000</hival>
+            <vu>.0053</vu>
+        </level>
+        <level category="3">
+            <lowval>100001</lowval>
+            <hival>1000000</hival>
+            <vu>.0016</vu>
+        </level>
+        <level category="4">
+            <lowval>1000001</lowval>
+            <hival>+</hival>
+            <vu>.0010</vu>
+        </level>
+    </exhibit>
+    <exhibit category="VUE007">
+        <name lang="en">VUE007</name>
+        <longname lang="en">VUE007 MSUs 007</longname>
+        <label lang="en">MSUs</label>
+        <abbreviation lang="en">MSU</abbreviation>
+        <level category="0">
+            <lowval>1</lowval>
+            <hival>3</hival>
+            <vu>1</vu>
+        </level>
+        <level category="1">
+            <lowval>4</lowval>
+            <hival>45</hival>
+            <vu>.45</vu>
+        </level>
+        <level category="2">
+            <lowval>46</lowval>
+            <hival>175</hival>
+            <vu>.36</vu>
+        </level>
+        <level category="3">
+            <lowval>176</lowval>
+            <hival>315</hival>
+            <vu>.27</vu>
+        </level>
+        <level category="4">
+            <lowval>316</lowval>
+            <hival>+</hival>
+            <vu>.2</vu>
+        </level>
+    </exhibit>
+    <exhibit category="VUE020">
+        <name lang="en">VUE020</name>
+        <longname lang="en">VUE020 MSUs 020</longname>
+        <label lang="en">MSUs</label>
+        <abbreviation lang="en">MSU</abbreviation>
+        <level category="0">
+            <lowval>1</lowval>
+            <hival>3</hival>
+            <vu>1</vu>
+        </level>
+        <level category="1">
+            <lowval>4</lowval>
+            <hival>45</hival>
+            <vu>.15</vu>
+        </level>
+        <level category="2">
+            <lowval>46</lowval>
+            <hival>175</hival>
+            <vu>.08</vu>
+        </level>
+        <level category="3">
+            <lowval>176</lowval>
+            <hival>315</hival>
+            <vu>.04</vu>
+        </level>
+        <level category="4">
+            <lowval>316</lowval>
+            <hival>+</hival>
+            <vu>.03</vu>
+        </level>
+    </exhibit>
+    <exhibit category="VUE021">
+        <name lang="en">VUE021</name>
+        <longname lang="en">VUE021 Engines 021</longname>
+        <label lang="en">Engines</label>
+        <abbreviation lang="en">ENG</abbreviation>
+        <level category="0">
+            <lowval>1</lowval>
+            <hival>3</hival>
+            <vu>10</vu>
+        </level>
+        <level category="1">
+            <lowval>4</lowval>
+            <hival>6</hival>
+            <vu>9</vu>
+        </level>
+        <level category="2">
+            <lowval>7</lowval>
+            <hival>9</hival>
+            <vu>8</vu>
+        </level>
+        <level category="3">
+            <lowval>10</lowval>
+            <hival>12</hival>
+            <vu>7</vu>
+        </level>
+        <level category="4">
+            <lowval>13</lowval>
+            <hival>16</hival>
+            <vu>6</vu>
+        </level>
+        <level category="5">
+            <lowval>17</lowval>
+            <hival>20</hival>
+            <vu>5</vu>
+        </level>
+        <level category="6">
+            <lowval>21</lowval>
+            <hival>25</hival>
+            <vu>4</vu>
+        </level>
+        <level category="7">
+            <lowval>26</lowval>
+            <hival>+</hival>
+            <vu>3</vu>
+        </level>
+    </exhibit>
+    <exhibit category="VUE023">
+        <name lang="en">VUE023</name>
+        <longname lang="en">VUE023 Users 023</longname>
+        <label lang="en">Users</label>
+        <abbreviation lang="en">USR</abbreviation>
+        <level category="0">
+            <lowval>1</lowval>
+            <hival>5000</hival>
+            <vu>1</vu>
+        </level>
+        <level category="1">
+            <lowval>5001</lowval>
+            <hival>15000</hival>
+            <vu>.50</vu>
+        </level>
+        <level category="2">
+            <lowval>15001</lowval>
+            <hival>50000</hival>
+            <vu>.30</vu>
+        </level>
+        <level category="3">
+            <lowval>50001</lowval>
+            <hival>150000</hival>
+            <vu>.20</vu>
+        </level>
+        <level category="4">
+            <lowval>150001</lowval>
+            <hival>500000</hival>
+            <vu>.15</vu>
+        </level>
+        <level category="5">
+            <lowval>500001</lowval>
+            <hival>1000000</hival>
+            <vu>.10</vu>
+        </level>
+        <level category="6">
+            <lowval>1000001</lowval>
+            <hival>+</hival>
+            <vu>.05</vu>
+        </level>
+    </exhibit>
+    <exhibit category="VUE027">
+        <name lang="en">VUE027</name>
+        <longname lang="en">VUE027 Terabytes 027</longname>
+        <label lang="en">Terabytes</label>
+        <abbreviation lang="en">TB</abbreviation>
+        <level category="0">
+            <lowval>1</lowval>
+            <hival>12</hival>
+            <vu>1</vu>
+        </level>
+        <level category="1">
+            <lowval>13</lowval>
+            <hival>32</hival>
+            <vu>.8455</vu>
+        </level>
+        <level category="2">
+            <lowval>33</lowval>
+            <hival>64</hival>
+            <vu>.6137</vu>
+        </level>
+        <level category="3">
+            <lowval>65</lowval>
+            <hival>100</hival>
+            <vu>.4639</vu>
+        </level>
+        <level category="4">
+            <lowval>101</lowval>
+            <hival>250</hival>
+            <vu>.3870</vu>
+        </level>
+        <level category="5">
+            <lowval>251</lowval>
+            <hival>+</hival>
+            <vu>.3097</vu>
+        </level>
+    </exhibit>
+    <exhibit category="VUE028">
+        <name lang="en">VUE028</name>
+        <longname lang="en">VUE028 Tape Drives 028</longname>
+        <label lang="en">Tape Drives</label>
+        <abbreviation lang="en">TD</abbreviation>
+        <level category="0">
+            <lowval>1</lowval>
+            <hival>20</hival>
+            <vu>10</vu>
+        </level>
+        <level category="1">
+            <lowval>21</lowval>
+            <hival>40</hival>
+            <vu>9</vu>
+        </level>
+        <level category="2">
+            <lowval>41</lowval>
+            <hival>60</hival>
+            <vu>8</vu>
+        </level>
+        <level category="3">
+            <lowval>61</lowval>
+            <hival>80</hival>
+            <vu>7</vu>
+        </level>
+        <level category="4">
+            <lowval>81</lowval>
+            <hival>100</hival>
+            <vu>6</vu>
+        </level>
+        <level category="5">
+            <lowval>101</lowval>
+            <hival>140</hival>
+            <vu>5</vu>
+        </level>
+        <level category="6">
+            <lowval>141</lowval>
+            <hival>180</hival>
+            <vu>4</vu>
+        </level>
+        <level category="7">
+            <lowval>181</lowval>
+            <hival>+</hival>
+            <vu>3</vu>
+        </level>
+    </exhibit>
+    <exhibit category="VUE030">
+        <name lang="en">VUE030</name>
+        <longname lang="en">VUE030 Users 030</longname>
+        <label lang="en">Users</label>
+        <abbreviation lang="en">USR</abbreviation>
+        <level category="0">
+            <lowval>1</lowval>
+            <hival>5000</hival>
+            <vu>1</vu>
+        </level>
+        <level category="1">
+            <lowval>5001</lowval>
+            <hival>15000</hival>
+            <vu>.500</vu>
+        </level>
+        <level category="2">
+            <lowval>15001</lowval>
+            <hival>50000</hival>
+            <vu>.300</vu>
+        </level>
+        <level category="3">
+            <lowval>50001</lowval>
+            <hival>150000</hival>
+            <vu>.200</vu>
+        </level>
+        <level category="4">
+            <lowval>150001</lowval>
+            <hival>500000</hival>
+            <vu>.100</vu>
+        </level>
+        <level category="5">
+            <lowval>500001</lowval>
+            <hival>1000000</hival>
+            <vu>.050</vu>
+        </level>
+        <level category="6">
+            <lowval>1000001</lowval>
+            <hival>3000000</hival>
+            <vu>.025</vu>
+        </level>
+        <level category="6">
+            <lowval>3000001</lowval>
+            <hival>+</hival>
+            <vu>.010</vu>
+        </level>
+    </exhibit>
+    <exhibit category="VUE031">
+        <name lang="en">VUE031</name>
+        <longname lang="en">VUE031 Gigabytes 031</longname>
+        <label lang="en">Gigabytes</label>
+        <abbreviation lang="en">GB</abbreviation>
+        <level category="0">
+            <lowval>1</lowval>
+            <hival>500</hival>
+            <vu>1</vu>
+        </level>
+        <level category="1">
+            <lowval>501</lowval>
+            <hival>1500</hival>
+            <vu>.8455</vu>
+        </level>
+        <level category="2">
+            <lowval>1501</lowval>
+            <hival>3000</hival>
+            <vu>.6137</vu>
+        </level>
+        <level category="3">
+            <lowval>3001</lowval>
+            <hival>5000</hival>
+            <vu>.4639</vu>
+        </level>
+        <level category="4">
+            <lowval>1501</lowval>
+            <hival>12000</hival>
+            <vu>.3870</vu>
+        </level>
+        <level category="5">
+            <lowval>12001</lowval>
+            <hival>+</hival>
+            <vu>.3097</vu>
+        </level>
+    </exhibit>
+    <exhibit category="VUE033">
+        <name lang="en">VUE033</name>
+        <longname lang="en">VUE033 Gigabytes 033</longname>
+        <label lang="en">Gigabytes</label>
+        <abbreviation lang="en">GB</abbreviation>
+        <level category="0">
+            <lowval>1</lowval>
+            <hival>500</hival>
+            <vu>1</vu>
+        </level>
+        <level category="1">
+            <lowval>501</lowval>
+            <hival>1500</hival>
+            <vu>.8455</vu>
+        </level>
+        <level category="2">
+            <lowval>1501</lowval>
+            <hival>3000</hival>
+            <vu>.6137</vu>
+        </level>
+        <level category="3">
+            <lowval>3001</lowval>
+            <hival>5000</hival>
+            <vu>.4639</vu>
+        </level>
+        <level category="4">
+            <lowval>5001</lowval>
+            <hival>12000</hival>
+            <vu>.2783</vu>
+        </level>
+        <level category="5">
+            <lowval>12001</lowval>
+            <hival>50000</hival>
+            <vu>.1531</vu>
+        </level>
+        <level category="6">
+            <lowval>50001</lowval>
+            <hival>100000</hival>
+            <vu>.0765</vu>
+        </level>
+        <level category="7">
+            <lowval>100001</lowval>
+            <hival>175000</hival>
+            <vu>.0344</vu>
+        </level>
+        <level category="8">
+            <lowval>175001</lowval>
+            <hival>275000</hival>
+            <vu>.0121</vu>
+        </level>
+        <level category="9">
+            <lowval>275001</lowval>
+            <hival>+</hival>
+            <vu>.0030</vu>
+        </level>
+    </exhibit>
+    <exhibit category="VUE034">
+        <name lang="en">VUE034</name>
+        <longname lang="en">VUE034 10 Billion ACU 034</longname>
+        <label lang="en">10 Billion ACU</label>
+        <abbreviation lang="en">TBA</abbreviation>
+        <level category="0">
+            <lowval>1</lowval>
+            <hival>3</hival>
+            <vu>1</vu>
+        </level>
+        <level category="1">
+            <lowval>4</lowval>
+            <hival>45</hival>
+            <vu>.45</vu>
+        </level>
+        <level category="2">
+            <lowval>46</lowval>
+            <hival>175</hival>
+            <vu>.36</vu>
+        </level>
+        <level category="3">
+            <lowval>176</lowval>
+            <hival>315</hival>
+            <vu>.27</vu>
+        </level>
+        <level category="4">
+            <lowval>316</lowval>
+            <hival>+</hival>
+            <vu>.2</vu>
+        </level>
+    </exhibit>
+    <exhibit category="VUE035">
+        <name lang="en">VUE035</name>
+        <longname lang="en">VUE035 100 Billion ACU 035</longname>
+        <label lang="en">100 Billion ACU</label>
+        <abbreviation lang="en">HBA</abbreviation>
+        <level category="0">
+            <lowval>1</lowval>
+            <hival>3</hival>
+            <vu>1</vu>
+        </level>
+        <level category="1">
+            <lowval>4</lowval>
+            <hival>45</hival>
+            <vu>.45</vu>
+        </level>
+        <level category="2">
+            <lowval>46</lowval>
+            <hival>175</hival>
+            <vu>.36</vu>
+        </level>
+        <level category="3">
+            <lowval>176</lowval>
+            <hival>315</hival>
+            <vu>.27</vu>
+        </level>
+        <level category="4">
+            <lowval>316</lowval>
+            <hival>+</hival>
+            <vu>.2</vu>
+        </level>
+    </exhibit>
+    <exhibit category="VUE036">
+        <name lang="en">VUE036</name>
+        <longname lang="en">VUE036 MMMT 036</longname>
+        <label lang="en">MMMT</label>
+        <abbreviation lang="en">MMM</abbreviation>
+        <level category="0">
+            <lowval>1</lowval>
+            <hival>3</hival>
+            <vu>1</vu>
+        </level>
+        <level category="1">
+            <lowval>4</lowval>
+            <hival>45</hival>
+            <vu>.45</vu>
+        </level>
+        <level category="2">
+            <lowval>46</lowval>
+            <hival>175</hival>
+            <vu>.36</vu>
+        </level>
+        <level category="3">
+            <lowval>176</lowval>
+            <hival>315</hival>
+            <vu>.27</vu>
+        </level>
+        <level category="4">
+            <lowval>316</lowval>
+            <hival>+</hival>
+            <vu>.2</vu>
+        </level>
+    </exhibit>
+	
+	<exhibit category="VUE037">
+        <name lang="en">VUE037</name>
+        <longname lang="en">VUE037 Simultaneous Instance 037</longname>
+        <label lang="en">Simult. Instance</label>
+		<abbreviation lang="en">SI</abbreviation>
+        <level category="0">
+      <lowval>1</lowval>
+      <hival>4</hival>
+      <vu>1</vu>
+    </level>
+    <level category="1">
+      <lowval>5</lowval>
+      <hival>10</hival>
+      <vu>.6660</vu>
+    </level>
+    <level category="2">
+      <lowval>11</lowval>
+      <hival>20</hival>
+      <vu>.4000</vu>
+    </level>
+    <level category="3">
+      <lowval>21</lowval>
+      <hival>40</hival>
+      <vu>.2000</vu>
+    </level>
+    <level category="4">
+      <lowval>41</lowval>
+      <hival>100</hival>
+      <vu>.0660</vu>
+    </level>
+	<level category="5">
+      <lowval>101</lowval>
+      <hival>250</hival>
+      <vu>.0260</vu>
+    </level>
+	<level category="6">
+      <lowval>251</lowval>
+      <hival>500</hival>
+      <vu>.0160</vu>
+    </level>
+	<level category="7">
+      <lowval>501</lowval>
+      <hival>1000</hival>
+      <vu>.0080</vu>
+    </level>
+
+	<level category="8">
+      <lowval>1001</lowval>
+      <hival>3000</hival>
+      <vu>.0020</vu>
+    </level>
+
+	<level category="9">
+      <lowval>3001</lowval>
+      <hival>+</hival>
+      <vu>.0007</vu>
+    </level>
+    </exhibit>
+</vuc>

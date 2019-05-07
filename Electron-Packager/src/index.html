@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VU Converter</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="jquery/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+  <style type="text/css">
+    /* Some custom styles to beautify this example */
+
+    .content {
+      padding: 15px;
+      font-size: 14px;
+      font-family: 'Shift', sans-serif;
+      margin-bottom: 5px;
+    }
+   
+    .content.bg-alt {
+      background: #979ca1;
+    }
+
+    .content.exhibitWrapper {
+      font-size: 14px;
+      height: auto;
+      border-radius: 10px;
+      border: 1px solid rgb(100, 100, 100);
+      padding: 20px;
+      background: rgb(247, 247, 247);
+    }
+      .container {
+        width: 100%;
+      }
+ 
+
+    .content.calcWrapper {
+      font-family: 'Shift', sans-serif;
+      border-radius: 10px;
+      border: 1px solid rgb(136, 136, 136);
+      padding: 20px;
+      height: auto;
+      background: rgb(247, 247, 247);
+    }
+
+    .content.leftBox {
+      min-height: 170px;
+      height: auto;
+      display: inline-block;
+      width: 390px;
+    }
+
+    .content.rightBox {
+      font-weight: bold;
+      display:inline-block;
+      position: absolute;
+      width: 280px;
+      height: auto;
+    }
+  </style>
+</head>
+
+<body onload="processUnits()">
+
+  <div class="container">
+
+    <!--Row with three equal columns-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="content">
+
+          <h2>VU Converter</h2>
+
+          <div class="content exhibitWrapper">
+            <span>Exhibit:</span>
+            <select id="exhibitSelectBox" onChange="exhibitOnChangeEvent()">
+              <option value="Select">Select</option>
+            </select>
+          </div>
+
+          <div class="content calcWrapper">
+            <span>A Utilization of</span>
+            <input type="text" size="10" id="blueMSUValue" onkeyup="convertBlueMSUtoVU()" maxlength="5">
+            <span> requires an entitlement of </span>
+            <strong>
+              <span id="blueVUValue"></span>
+            </strong>
+            <span> VUs</span>
+          </div>
+    
+           <!--NEW-->
+          <div class="content calcWrapper">
+            <span>A entitlement of</span>
+            <input type="text" size="10" id="orangeVUValue" class="valueField" onkeyup=convertVUtoMSU(this.value,"orangeMSUValue") maxlength = "5">
+            <span>VU is sufficient for a utilization of </span>
+            <strong>
+            <span id="orangeMSUValue"></span>
+            </strong>
+          </div>
+           <!--NEW-->
+          
+          <div class="content calcWrapper">
+            <span>Adding</span>
+            <input type="text" size="10" id="greenVUValue" onkeyup="addVUtoMSU()" maxlength="5">
+            <span>VUs to</span>
+            <input type="text" size="10" id="greenMSUValue" onkeyup="addVUtoMSU()" maxlength="5">
+            <span>existing </span>
+
+            <span>is sufficient for total utilization of </span>
+            <strong>
+              <span id="greentotalUtilizationVal"></span>
+            </strong>
+          </div>
+
+
+          <div class="content calcWrapper">
+            <span>Adding</span>
+            <input type="text" size="10" id="redMSUValue" onkeyup=addMSUtoMSU() maxlength="5">
+
+            <span> to an existing</span>
+            <input type="text" size="10" id="redExistMSUValue" onkeyup=addMSUtoMSU() maxlength="5">
+
+            <span> utilization requires
+              <strong>
+                <span id="redrequiredVUValue"></span>
+              </strong>
+              <span> additional VUs and is sufficient for total utilization of </span>
+              <strong>
+                <span id="redtotalUtilizationVal"></span>
+              </strong>
+          </div>
+
+          <div class="content calcWrapper">
+            <div class="content leftBox" id="conversionTable"> </div>
+            <div class="content rightBox">
+              <!--Start the informations, aligned on the right-->
+              <span>NOTE: When converting </span>
+              <span> to Value Units, fractional results are rounded up. When converting Value Units to</span>
+              <span>, fractional results are rounded down. Due to these rounding effects, multiple numbers of</span>
+              <span> could be converted to the same number of Value units.</span>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Row with three columns divided unevenly-->
+
+
+  </div>
+</body>
+
+</html>
