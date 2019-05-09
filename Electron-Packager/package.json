@@ -1,13 +1,13 @@
 {
-  "name": "electron-app",
+  "name": "vuconverter",
   "version": "1.0.0",
-  "description": "Electron packager ",
+  "description": "This tool is only for test",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
-    "package-win": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron App\"",    
-    "package-linux": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/512x512.png --prune=true --out=release-builds"
+    "package-mac": "electron-packager . vuconverter --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
+    "package-win": "electron-packager . vuconverter --overwrite --asar=true --platform=win32 --arch=x64 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron App\"",    
+    "package-linux": "electron-packager . vuconverter --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/512x512.png --prune=true --out=release-builds"
   },
   "author": "pedmar",
   "license": "CC0-1.0",
